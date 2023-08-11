@@ -1,0 +1,69 @@
+.textClass{
+    color:#000000;
+}
+
+h1{
+    text-align: center;
+}
+
+h3{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.h4Class{
+    font-weight: bold;
+}
+
+.rscClass{
+    font-style: italic;
+}
+
+#h3ID{
+    font-family: fantasy;
+}
+
+body{
+    background: url("https://htmlcolorcodes.com/assets/images/colors/pastel-yellow-color-solid-background-1920x1080.png");
+    font-family: "Times New Roman";
+}
+
+.bx{
+    background-color: greenyellow;
+    padding: 5px 15px;
+    margin: 20px 30px;
+    border: 2px dashed blue
+}
+
+.bx p{
+    background-color: white;
+    color: black
+}
+
+h1{
+    position: fixed;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.parClass{
+    position: fixed;
+    top: 4%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.Container {
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    order: 5;
+    justify-content:flex-end;
+
+}
+
+.line {
+    border: solid 2px aqua;
+}
