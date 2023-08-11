@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>About Me</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script>
+            let slideIndex = 0;
+function showSlides() {
+    let slides = document.getElementsByClassName(slide);
+
+    for (let i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+
+    slideIndex++;
+
+    if (slideIndex > slides.length) {
+        slideIndex = 1;
+    }
+
+    slides[slideIndex-1].style.display = "block";
+    setTimeout(showSlides, 2000);
+}
+
+showSlides();
+        </script>
+    </head>
+
+    <body>
+        <div class="Container">
+            <h1 class="textClass">About Me</h1> 
+            <p class="parClass">I am going into 6th grade.</p>
+            <hr>
+
+            <select>
+                <optgroup label="North America">
+                    <option value="us">United States</option>
+                    <option value="ca">Canada</option>
+                </optgroup>
+                <optgroup label="Europe">
+                    <option value="uk">United Kingdom</option>
+                    <option value="fr">France</option>
+                </optgroup>
+                <max-width>50%</max-width>
+            </select>
+             
+            <h2 class="textClass" id="h3ID">My Dog</h2>
+            <p class="textClass"> My dog's name is Cosmo and he loves to eat. Cosmo is a Labrador Retriever, and he also loves to play. </p>
+            <img src="lab.jpg">
+            <h2 class="textClass">Robotics</h2>
+            <p class="textClass">I love doing robotics. I use this list every single time.</p>
+            <h4 class="h4Class"></h4>
+            
+            <ol>
+                <li class="rscClass">
+                    I build something that has to include a part from vex code robotics called a brain.
+                </li>
+                <li class="rscClass">
+                    I code it by connecting the brain to the vex code robotics website.
+                </li>
+                <li class="rscClass">
+                    My robot moves!
+                </li>
+            </ol>
+            
+                <h2>Math</h2>
+
+            <div class="bx">
+                <p>I love to do tricks with my dog.</p>
+                <p>I taught him addition.</p>
+                <p>He can do 1+1, 1+2, 2+2 and anything simple like that.</p>
+                <p>Math is my favorite subject, but Cosmo only does it so he can eat a treat everytime he gets a problem right.</p>
+                <p>My favorite kind of math is algebra. I can do 7th grade algebra prep.</p>
+            </div>
+
+            <div class="slideshow-container">
+                <div class="slide">
+
+                </div>
+                <div class="slide">
+
+                </div>
+            </div>
+
+        </div>
+    </body>
+</html>
